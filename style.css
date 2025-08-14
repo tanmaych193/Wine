@@ -1,0 +1,239 @@
+::selection{
+    background-color: rgb(178, 142, 101);
+    color: black;
+}
+.bg{
+    height: 900px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.overlay-main{
+    opacity:0.4;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    background-color: black;
+    height: 900px;
+    z-index:3;
+}
+.container {
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index:4;
+    color:white;
+}
+.left-nav{
+    width: 23%;
+}   
+.nav{
+    width: 100%;
+    box-sizing: border-box;
+    padding:50px 390px;
+    display: flex;
+    justify-content: space-around;
+}
+.end-nav{
+    width: 23%;
+}
+.grill{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.grill{
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 900;
+}
+.ho{
+    transition: 0.3s ease;
+}
+.ho:hover{
+    color: rgb(178, 142, 101);
+}
+.estd h1{
+    font-family: "Cinzel", serif;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.estd h1::first-letter{
+    font-size: 26px;
+}
+.old{
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 140px;
+}
+.bord{
+    margin: 30px auto;
+    width: 2%;
+    border: 1px solid white;
+}
+.book-tab{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.book-tab button{
+    font-family: "Nunito", sans-serif;
+    background-color: white;
+    border: none;
+    padding: 17px 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+.book-tab button:hover{
+    color: white;
+    background-color: rgb(178, 142, 101);
+}
+.history{
+    text-align: center;
+    background-image: url(images/2-bg.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    padding: 170px;
+}
+.history h2{
+    font-family: "Cinzel", serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.history h1{
+    font-family: "Cinzel", serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 91px;
+}
+.history-border{
+    margin: 35px auto;
+    width: 4%;
+    border: 1px solid white;
+}
+.lorem{
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+.nemo{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 45px;
+}
+.history button{
+    font-family: "Nunito", sans-serif;
+    background-color: white;
+    border: none;
+    padding: 17px 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+.history button:hover{
+    color: white;
+    background-color: black;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.menu img{
+    width: 792px;
+    height: 680px;
+}
+.wine{
+    margin-top: -10px;
+    background-color: #faf5fa;
+    padding: 100px 150px;
+}
+.wine-border{
+    margin: 35px auto;
+    width: 4%;
+    border: 0.5px solid #b28e65;
+}
+.wine h1{
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    line-height: 91px;
+    color: black;
+    font-size: 70px;
+}
+.wine-category{
+    display: flex;
+    justify-content: space-between;
+}
+.wine-1{
+    text-align: center;
+    margin-top: 80px;
+    box-sizing: border-box;
+    width: 24%;
+    transition: 0.3s ease;
+    height: 580px;
+    border-radius: 12px;
+}
+.wine-1:hover{
+    background-color: white;
+}
+.wine-1 h2{
+    padding: 0 45px 10px 45px;
+    color: black;
+    font-family: "Cinzel", serif;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.wine-1 img{
+    padding: 30px 45px 10px 45px;
+}
+.wine-border-1{
+    width: 99%;
+    border: 1px solid #b28e65;
+    margin: 15px 0;
+}
+.wine-1 h3{
+    color: #b28e65;
+    font-size: 23px;
+}
+.all-special{
+    margin: 60px 0 10px 0;
+}
+.all-special button{
+    border: 1px solid #b28e65;
+    background-color: transparent;
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #b28e65;
+    font-weight: 700;
+    padding: 17px 22px;
+    margin-left: 42%;
+    transition: 0.3s ease;
+}
+.all-special button:hover{
+    color: white;
+    background-color: #b28e65;
+}
+
+.tanmay{
+    background-color: #b28e65;
+    font: 400;
+    font-size: 23px;
+    
+}
